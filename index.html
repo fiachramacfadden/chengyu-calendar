@@ -1,16 +1,57 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chengyu Calendar</title><style>
-:root{--paper:#f4f1ea;--ink:#2a2723;--green:#1f7a4a;--rule:#d6cfbf;--muted:#6f695e}
-body{background:var(--paper);color:var(--ink);font:17px/1.65 Georgia,"Times New Roman",serif;margin:0;padding:40px 20px}
-main{max-width:66ch;margin:0 auto}
-h1{font-weight:normal;font-size:30px;line-height:1.15;color:var(--green);margin:0 0 20px}
-h2{font-weight:normal;font-size:21px;margin:30px 0 8px;color:var(--green)}
-p{margin:0 0 14px} .note{color:var(--muted);font-style:italic}
-ul{padding-left:20px} li{margin-bottom:8px}
-a{color:var(--green)} nav{margin-bottom:28px;font-size:15px;color:var(--muted)} nav a{margin-right:16px}
-footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--rule);font-size:14px;color:var(--muted)}
-</style></head><body><main>
-<h1>成语日历 <span style="font-size:20px;color:var(--muted)">Chengyu Calendar</span></h1>
-<p>One Chinese idiom a day, on a tear-off calendar for the iPhone, with its pinyin, a gloss of each character, its meaning, an example, the story of where it comes from, and three sentences that use it, in Simplified or Traditional characters. A Home Screen widget shows the day's page.</p>
-<p>No account, no sign-in, nothing collected about you.</p>
-<ul><li><a href="privacy/">Privacy policy</a></li><li><a href="terms/">Terms of use</a></li></ul>
-<footer>Made by Zhiyin, Ireland. <a href="mailto:fiki@zhiyin.dev">fiki@zhiyin.dev</a></footer></main></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Chengyu Calendar</title>
+<meta name="description" content="Build your Chinese, one idiom at a time. A new Chinese idiom every day, right on your iPhone’s Home Screen.">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://chengyucalendar.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chengyu Calendar">
+<meta property="og:title" content="Chengyu Calendar">
+<meta property="og:description" content="Build your Chinese, one idiom at a time. A new Chinese idiom every day, right on your iPhone’s Home Screen.">
+<meta property="og:url" content="https://chengyucalendar.com/">
+<meta property="og:image" content="https://chengyucalendar.com/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="apple-itunes-app" content="app-id=6813331921">
+<link rel="icon" type="image/png" href="assets/icon-64.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Noto+Serif+SC:wght@400&display=swap">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Chengyu Calendar, home">
+      <img src="assets/icon-64.png" alt="" width="28" height="28">
+      <span class="name">Chengyu Calendar</span><span class="han" lang="zh-Hans">成语日历</span>
+    </a>
+    <nav aria-label="Legal">
+      <a href="privacy/">Privacy</a>
+      <a href="terms/">Terms</a>
+    </nav>
+  </div>
+</header>
+<main class="hero">
+  <div class="wrap">
+    <h1>Build your Chinese, one idiom at a time</h1>
+    <p class="sub">A new Chinese idiom every day, right on your Home Screen, designed like a page from a traditional Chinese tear-off calendar.</p>
+    <a class="badge" href="https://apps.apple.com/app/id6813331921"><img src="assets/badge-white.svg" alt="Download on the App Store" width="156" height="52"></a>
+  </div>
+  <div class="stage">
+    <div class="phone"><div class="screen island"><img src="assets/home.webp" alt="An iPhone Home Screen with the Chengyu Calendar widget showing today’s page: 大展鸿图, dà zhǎn hóng tú, to set about a grand undertaking" width="1320" height="2868" fetchpriority="high"></div></div>
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Chengyu Calendar</span>
+    <span class="links"><a href="privacy/">Privacy Policy</a><a href="terms/">Terms of Use</a><a href="mailto:fiki@zhiyin.dev">fiki@zhiyin.dev</a></span>
+  </div>
+</footer>
+</body>
+</html>
